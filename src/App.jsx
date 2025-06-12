@@ -1,11 +1,12 @@
 import './App.css';
+import miImagen from './assets/mi-imagen.jpg';
 
 function App() {
   return (
     <div className="card-container">
       <div className="profile-card">
         <img
-          src="https://i.imgur.com/uXQF5gD.png" // Puedes cambiar la imagen por otra que te guste
+          src={miImagen}
           alt="Foto de Celeste"
           className="profile-img"
         />
