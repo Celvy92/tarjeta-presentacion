@@ -54,3 +54,37 @@ p {
   font-size: 0.9rem;
   color: #444;
 }
+.contact-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #f472b6; /* rosa bonito */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #ec4899; /* un poco más fuerte al pasar el mouse */
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-links a {
+  color: #db2777;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #be185d;
+  text-decoration: underline;
+}
